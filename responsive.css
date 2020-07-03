@@ -1,0 +1,91 @@
+@media (max-width: 870px) { /*when the screen size is less than 800px need to adjust the display*/
+
+  header {
+  height: 215px;
+  }
+
+  .header-logo, .header-list {
+    text-align: center;
+    display: inline-block;
+  }
+
+  .appetizer {
+  height: 715px;
+  }
+
+  .empty_appetizer {
+  height: 215px;
+  }
+  
+  .img_appetizer {
+  width: 100%;
+	text-align: center;
+  }
+  
+  .desc_appetizer {
+  width: 100%;
+	text-align: center;
+  }
+  
+  .main_dish {
+  height: 500px;
+  }
+  
+  .img_main {
+  width: 100%;
+	text-align: center;
+  }
+  
+  .desc_main {
+  width: 100%;
+	text-align: center;
+  }
+  
+  .dessert {
+  height: 500px;
+  }
+  
+  .img_dessert{
+  width: 100%;
+	text-align: center;
+  }
+  
+  .desc_dessert {
+  width: 100%;
+	text-align: center;
+  }
+}
+
+@media (max-width: 670px) {
+  .container {
+    padding: 0 12px;
+   }
+
+  .footer .grid {
+    margin: 0;
+   }
+
+  .footer_global {
+     border-bottom: 1px solid #b3b3b3;
+   }
+
+  .med_size4of12 {
+       width: 33.33333%;
+   }
+
+  .footer_global h4 {
+    margin: 0 20px;
+    font-size: 1.1em;
+   }
+
+  .footer a {
+    color: #3d3935;
+   }
+
+  .footer a {
+    font-weight: 400;
+  }
+
+  .column {
+    padding: 0 12px;
+  }
